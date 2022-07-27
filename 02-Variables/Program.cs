@@ -7,15 +7,15 @@ namespace _02_Variables
         static void Main(string[] args)
         {
             // 1. Create a string variable and assign it a value
-            
-
+            string name = "david";
+            name = name + "fred ";
 
             // 2. Output a message that contains this variable
-
+            Console.WriteLine("hello " + name);
 
 
             // 3. Make the program wait for input
-
+            Console.ReadLine();
 
 
         }
@@ -35,11 +35,11 @@ QUESTIONS:
         
 1. What is a variable?
 
-
+a variable ims something that the computer can change 
 
 2. What is a string?
 
-
+string represents any character inbetween quoatation marks
 
 EXAMPLE:
 
